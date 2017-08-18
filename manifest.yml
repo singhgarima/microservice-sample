@@ -1,0 +1,10 @@
+---
+applications:
+- name: directory-service
+  memory: 512MB
+  random-route: true
+  path: directory-service/target/directory-service-1.0-SNAPSHOT.jar
+- name: employee-client
+  memory: 512MB
+  random-route: true
+  path: employee-client/target/employee-client-1.0-SNAPSHOT.jar
